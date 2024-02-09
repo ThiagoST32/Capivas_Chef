@@ -1,0 +1,153 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-image: url(../Imagens/paozinho.jpg);
+    background-image: cover;
+    background-repeat: repeat;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.Alterar_Senha_Confirma{
+    background-color: #F9C267;
+    width: 983px;
+    height: 777px;
+    border-radius: 20px;
+}
+
+.Fundo_Alterar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.posi_img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+img{
+    position: relative;
+    top: 55px;
+    width: 172px;
+    height: 174px;
+    border-radius: 111.5px;
+    margin: 20px;
+    padding: 20px;
+}
+
+.label_Email{
+    margin-bottom: 10px;
+    text-decoration: none;
+    font-size: 16px;
+    position: relative;
+    top: 50px;
+}
+
+.input_Email_posi{
+    position: relative;
+    top: 50px;  
+}
+
+.input_Email{
+    width: 528px;
+    height: 30px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    stroke: none;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    color: #000000;
+    background-color: #FEEFD4;
+}
+
+
+.label_Pergunta_Seguranca{
+    margin-bottom: 10px;
+    text-decoration: none;
+    font-size: 16px;
+    position: relative;
+    top: 75px;
+}
+
+.input_Pergunta_posi{
+    position: relative;
+    top: 75px;  
+}
+
+.input_Pergunta{
+    width: 528px;
+    height: 30px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    stroke: none;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    color: #000000;
+    background-color: #FEEFD4; 
+}
+
+.label_Resposta_Pergunta{
+    margin-bottom: 10px;
+    text-decoration: none;
+    font-size: 16px;
+    position: relative;
+    top: 100px;
+}
+
+.input_Resposta_posi{
+    position: relative;
+    top: 100px;
+}
+
+.input_Resposta{
+    width: 528px;
+    height: 30px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    stroke: none;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    color: #000000;
+    background-color: #FEEFD4;  
+}
+
+.btn_Enviar_Email{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn_Enviar{
+    position: relative;
+    top: 200px;
+    width: 294px;
+    height: 30px;
+    border-radius: 100px;
+    outline: none;
+    border: none;
+    stroke: none;
+    box-sizing: border-box;
+    background-color: #FEEFD4;
+    cursor: pointer;
+}
+
+
+.btn_Enviar:hover{
+    background-color: #f8dfaf;
+    transition: all 0.5s;
+}

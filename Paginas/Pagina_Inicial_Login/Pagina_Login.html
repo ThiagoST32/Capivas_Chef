@@ -12,18 +12,26 @@
         <form action="" method="post">
             <img src="../Imagens/Kiss The Cook Capybara Chef Wall And Art Print.jpeg" alt="">
 
-            <div class="username">
+            <div class="label_usuario">
                 <label for="usuario" name="usuario">Usuario/Email</label>
-                <input type="text" name="usuario" id="usuario" placeholder="Insira seu Usuario ou Email" autocomplete="off" required >
-                <i class='bx bxs-user'></i>
+            </div>
+
+            <div class="username">
+                <input type="text" name="usuario" id="usuario" class="input_usuario" autocomplete="off" placeholder="Insira seu Usuario ou Email" autocomplete="off" required >
+            </div>
+
+            <div class="label_senha">
+                <label for="senha" name="senha">Senha</label>
             </div>
 
             <div class="user_pass">
-                <label for="senha" name="senha">Senha</label>
-                <input type="password" name="senha" id="senha" autocomplete="off" placeholder="Insira a Senha" required>
-                <i class='bx bxs-lock-alt'></i>
+                <input type="password" name="senha" id="senha" class="input_senha" autocomplete="off" placeholder="Insira a Senha" required>
             </div>
-            <button class="btn_login">Login</button>
+
+            <div class="btn_login">
+                <button>Login</button>
+            </div>
+            
             <a class="esqueceu_senha" href="#">Esqueceu a senha</a>
         </form>
     </div>

@@ -2,13 +2,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* background-image: url(../Imagens/Mesa\ de\ café\ da\ manhã_.jpeg); */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 body{
+    background-image: url(../Imagens/paozinho.jpg);
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -34,37 +34,73 @@ img{
     margin: 50px auto;
 }
 
-
 .btn_login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
     width: 178px;
     height: 38px;
     margin: 10px;
     background-color:#DEB468;
     border-radius: 15px;
     cursor: pointer;
-    display: block;
 }
 
 .username{
     display: flex;
-    align-items: center;
     justify-content: center;
 }
 
-input{
+.input_usuario{
     background-color: #DEB468;
-    width: 230px;
+    position: relative;
+    border: none;
+    outline: none;
+    width: 55%;
     height: 40px;
-    border-radius: 35px;
     stroke: black;
+    padding: 20px;
+    border-radius: 35px;
     margin-bottom: 25px;
+    border-color: black;
 }
 
-.username{
+.label_usuario{
+    position: relative;
+    right: -130px;
+    margin-bottom: 10px;
+}
+
+.user_pass{
     display: flex;
-    align-items: center;
+    justify-content: center;
+}
+
+.input_senha{
+    background-color: #DEB468;
+    position: relative;
+    border: none;
+    outline: none;
+    width: 55%;
+    height: 40px;
+    stroke: black;
+    padding: 20px;
+    border-radius: 35px;
+    margin-bottom: 25px;
+    border-color: black;
+}
+
+.label_senha{
+    position: relative;
+    right: -130px;
+    margin-bottom: 10px;
 }
 
 .esqueceu_senha{
-    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
 }

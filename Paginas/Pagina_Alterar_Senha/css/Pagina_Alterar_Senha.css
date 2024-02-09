@@ -1,0 +1,88 @@
+body {
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-image: url(../css/img/paozinho.jpg);
+    background-image: cover;
+    background-repeat: repeat;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.alterar_senha {
+    width: 555px;
+    height: 600px;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: #F9C267;
+    border-radius: 100px;
+}
+
+.alterar_senha img {
+    display: flex;
+    border-radius: 111.5%;
+    margin: 15px auto;
+    width: 172px;
+    height: 174px;
+    justify-content: center;
+    align-items: center;
+}    
+
+.alterar_senha input {
+    position: relative;
+    height: 50px;
+    width: 100%;
+    color: #f8dfaf;
+    background-color: #FEEFD4;
+    border: none;
+    border-radius: 35px;
+    padding: 20px;
+    box-sizing: border-box;
+    outline: none;
+    margin-bottom: 25px;
+    border-color: #000;
+}
+
+.alterar_senha label {
+    height: 15px;
+    width: 31;
+    color: #000;
+    border: none;
+    outline: none;
+}
+
+.alterar_senha input:hover{
+    background-color: #f8f2e9;
+}
+
+.input_box {
+    margin-bottom: 10px;
+    
+}
+
+.button_box{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.alterar_senha button {
+    height: 40px;
+    width: 137px;
+    color: #000;
+    background-color: #E0AF5D;
+    border-radius: 15px;
+    font-size: 16px;
+    border: none;
+}
+
+.alterar_senha button:hover {
+    background-color: #f0cd90;
+    cursor: pointer;
+}

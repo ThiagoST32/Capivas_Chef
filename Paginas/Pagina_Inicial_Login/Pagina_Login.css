@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-image: url(../Imagens/Mesa\ de\ café\ da\ manhã_.jpeg); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.login{
+    background-color: #DBCE66;
+    width: 555px;
+    height: 600px;
+    border-radius: 100px;
+    margin: 20px;
+}
+
+img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 172px;
+    height: 174px;
+    border-radius: 111.5px;
+    stroke: black;
+    margin: 50px auto;
+}
+
+
+.btn_login{
+    width: 178px;
+    height: 38px;
+    margin: 10px;
+    background-color:#DEB468;
+    border-radius: 15px;
+    cursor: pointer;
+    display: block;
+}
+
+.username{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input{
+    background-color: #DEB468;
+    width: 230px;
+    height: 40px;
+    border-radius: 35px;
+    stroke: black;
+    margin-bottom: 25px;
+}
+
+.username{
+    display: flex;
+    align-items: center;
+}
+
+.esqueceu_senha{
+    font-size: 15px;
+}

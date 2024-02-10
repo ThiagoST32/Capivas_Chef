@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-image: url(../Imagens/paozinho.jpg);
+    background-image: cover;
+    background-repeat: repeat;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.popup_Senha_Alterada{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fundo_Popup{
+    width: 983px;
+    height: 777px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    stroke: none;
+    background-color: #F9C267;
+}
+
+.img_capiva_posi{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 150px;
+}
+
+.img_capiva{
+    width: 172px;
+    height: 174px;
+    border-radius: 111.5px;
+    border: none;
+    outline: none;
+    stroke: none;
+}
+
+
+.label_Senha_Alterada_posi{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 200px;
+}
+
+.label_Senha_Alterada{
+    font-size: 50px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.bnt_login_posi{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 375px;
+}
+
+.bnt_login{
+    text-decoration: none;
+    outline: none;
+    stroke: none;
+    color: black;
+    font-size: 16px;
+    text-align: center;
+    background-color:#FEEFD4;
+    width: 294px;
+    height: 20px;
+    border-radius: 20px;
+}
+
+.bnt_login:hover{
+    background-color: #f8dfaf;
+    transition: all 0.5s;
+}
+
+

@@ -64,7 +64,7 @@ body {
 .input_Nome_Usuario{
     width: 370px;
     height: 30px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     border-radius: 20px;
     stroke: none;
     border: none;
@@ -72,6 +72,10 @@ body {
     box-sizing: border-box;
     color: #000000;
     background-color: #FEEFD4;
+}
+
+.input_Nome_Usuario:hover{
+    background-color: #f8f2e9;
 }
 
 .label_Telefone_posi{
@@ -95,7 +99,7 @@ body {
 .input_Telefone{
     width: 370px;
     height: 30px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     border-radius: 20px;
     stroke: none;
     border: none;
@@ -103,6 +107,10 @@ body {
     box-sizing: border-box;
     color: #000000;
     background-color: #FEEFD4;
+}
+
+.input_Telefone:hover{
+    background-color: #f8f2e9;
 }
 
 .label_Email_posi{
@@ -126,7 +134,7 @@ body {
 .input_Email{
     width: 370px;
     height: 30px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     border-radius: 20px;
     stroke: none;
     border: none;
@@ -134,6 +142,10 @@ body {
     box-sizing: border-box;
     color: #000000;
     background-color: #FEEFD4;
+}
+
+.input_Email:hover{
+    background-color: #f8f2e9;
 }
 
 .label_senha_posi{
@@ -157,7 +169,7 @@ body {
 .input_senha{
     width: 370px;
     height: 30px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     border-radius: 20px;
     stroke: none;
     border: none;
@@ -167,10 +179,14 @@ body {
     background-color: #FEEFD4;
 }
 
+.input_senha:hover{
+    background-color: #f8f2e9;
+}
+
 .label_confirm_senha_posi{
     position: relative;
     right: -95px;
-    margin-bottom: 5px;
+    margin-bottom: 15px;
 }
 
 .label_confirm_senha{
@@ -188,7 +204,7 @@ body {
 .input_confirm_senha{
     width: 370px;
     height: 30px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     border-radius: 20px;
     stroke: none;
     border: none;
@@ -198,44 +214,17 @@ body {
     background-color: #FEEFD4;
 }
 
-
-.label_Pergunta_Seguranca_posi{
-    position: relative;
-    right: -95px;
-    margin-bottom: 5px;
+.input_confirm_senha:hover{
+    background-color: #f8f2e9;
 }
 
-.label_Pergunta_Seguranca{
-    text-decoration: none;
-    outline: none;
-    font-size: 16px;
-}
-
-.input_Pergunta_Seguranca_posi{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.input_Pergunta_Seguranca{
-    width: 370px;
-    height: 30px;
-    margin-bottom: 20px;
-    border-radius: 20px;
-    stroke: none;
-    border: none;
-    outline: none;
-    box-sizing: border-box;
-    color: #000000;
-    background-color: #FEEFD4;
-}
 
 .btn_Cadastrar_posi{
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
-    top: 15px;
+    top: 25px;
 }
 
 .btn_Cadastrar{
@@ -245,6 +234,11 @@ body {
     outline: none;
     border: none;
     stroke: none;
-    background-color: #FEEFD4;
+    background-color: #E0AF5D;
+    cursor: pointer;
+}
+
+.btn_Cadastrar button:hover {
+    background-color: #f0cd90;
     cursor: pointer;
 }
